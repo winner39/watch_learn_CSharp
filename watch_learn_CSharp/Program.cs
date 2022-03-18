@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace watch_learn_CSharp
 {
@@ -11,9 +12,8 @@ namespace watch_learn_CSharp
     {
         static void Main(string[] args)
         {
-            Form form = new Form();
-            form.Text = "12345";
-            form.ShowDialog();
+            var demo_Timer = new Demo_Timer();
+            
         }
     }
 }

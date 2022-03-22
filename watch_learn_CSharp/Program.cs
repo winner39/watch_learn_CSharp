@@ -12,8 +12,9 @@ namespace watch_learn_CSharp
     {
         static void Main(string[] args)
         {
-            var demo_Timer = new Demo_Timer();
-            
+            /*var demo_Timer = new Demo_Timer();*/
+            Demo_Type demo_Type = new Demo_Type();
+            Console.ReadLine();
         }
     }
 }

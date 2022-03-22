@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="4 类，对象，类成员简介\Demo_Timer.cs" />
+    <Compile Include="6_7 详解类型、变量与对象\Demo_Type.cs" />
     <Compile Include="entity_data.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

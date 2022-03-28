@@ -13,8 +13,9 @@ namespace watch_learn_CSharp
         static void Main(string[] args)
         {
             /*var demo_Timer = new Demo_Timer();*/
-            Demo_Type demo_Type = new Demo_Type();
-            Console.ReadLine();
+            /*Demo_Type demo_Type = new Demo_Type();
+            Console.ReadLine();*/
+            Demo_Debug.GetConeVolume(10, 5);
         }
     }
 }

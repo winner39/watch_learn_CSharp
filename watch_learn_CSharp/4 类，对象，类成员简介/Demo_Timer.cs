@@ -14,14 +14,26 @@ namespace watch_learn_CSharp
         public static Timer timer = new Timer();
         static bool exitFlag = false;
         static Form form = new Form();
+        public int a;
         public Demo_Timer()
         {
+            a = 0;
+
             Button button = new Button();
             button.Text = "OK";
             button.Location = new Point(20, 20);
+            button.Click += (sender, e) =>
+            {
+                Console.WriteLine("!");
+            };
+            button.Click += (sender, e) =>
+            {
+                Console.WriteLine("!!");
+            };//可以叠层数
             Button button1 = new Button();
             button1.Text = "Cancel";
             button1.Location = new Point(button.Location.X + button.Size.Width, button.Location.Y + button.Size.Height);
+            button1.Click += Button1_Click;
 
             form.Text = "";
             form.Controls.Add(button);
@@ -40,6 +52,12 @@ namespace watch_learn_CSharp
                 Application.DoEvents();
             }
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("?");
+        }
+
         private void Timer_Tick(object sender, EventArgs e)
         {
             timer.Stop();
@@ -56,7 +74,7 @@ namespace watch_learn_CSharp
             else
             {
                 // Stops the timer.
-                exitFlag = true;
+                /*exitFlag = true;*/
             }
         }
     }

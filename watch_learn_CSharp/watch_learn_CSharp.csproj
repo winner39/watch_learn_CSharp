@@ -25,6 +25,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,6 +35,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -57,6 +59,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="10_12 操作符详解\Demo_Operator.cs" />
+    <Compile Include="10_12 操作符详解\Demo_Type_Transfer.cs" />
+    <Compile Include="13_16 表达式、语句详解\Demo_Expression.cs" />
     <Compile Include="4 类，对象，类成员简介\Demo_Timer.cs" />
     <Compile Include="6_7 详解类型、变量与对象\Demo_Type.cs" />
     <Compile Include="8_9 方法的定义、调用与调试\Demo_Func.cs" />

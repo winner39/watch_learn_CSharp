@@ -52,9 +52,11 @@ namespace watch_learn_CSharp
             int x = 100;
             object obj = x;//对于存储在栈区的局部变量，obj进行深拷贝，存储到堆区
             int y = (int)obj;
+            y = 101;
             x = 105;//因此改变x的值对于深拷贝的obj不会有影响
-            Console.WriteLine(y);//y依然为100
-
+            
+            Console.WriteLine(y);//y依然为101
+            Console.WriteLine((int)obj);//obj依然为100，说明y和obj不是同一个对象
         }
     }
 }

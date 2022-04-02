@@ -62,6 +62,7 @@
     <Compile Include="10_12 操作符详解\Demo_Operator.cs" />
     <Compile Include="10_12 操作符详解\Demo_Type_Transfer.cs" />
     <Compile Include="13_16 表达式、语句详解\Demo_Expression.cs" />
+    <Compile Include="17_字段、属性、索引器、常量\Demo_17.cs" />
     <Compile Include="4 类，对象，类成员简介\Demo_Timer.cs" />
     <Compile Include="6_7 详解类型、变量与对象\Demo_Type.cs" />
     <Compile Include="8_9 方法的定义、调用与调试\Demo_Func.cs" />

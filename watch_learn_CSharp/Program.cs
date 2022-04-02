@@ -23,8 +23,12 @@ namespace watch_learn_CSharp
 
             //Demo_Type_Transfer demo_Type_Transfer = new Demo_Type_Transfer();
 
-            Demo_Expression demo_Expression = new Demo_Expression();
-            demo_Expression.test();
+            //Demo_Expression demo_Expression = new Demo_Expression();
+            //demo_Expression.test();
+
+            Demo_17 demo_17 = new Demo_17();
+            demo_17.test();
+
             Console.ReadLine();
         }
     }

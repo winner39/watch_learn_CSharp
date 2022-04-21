@@ -26,10 +26,41 @@ namespace watch_learn_CSharp
             //Demo_Expression demo_Expression = new Demo_Expression();
             //demo_Expression.test();
 
-            Demo_17 demo_17 = new Demo_17();
-            demo_17.test();
+            //Demo_17 demo_17 = new Demo_17();
+            //demo_17.test();
+
+            //Demo_Func_Parameters demo_Func_Parameters = new Demo_Func_Parameters();
+            //demo_Func_Parameters.test();
+
+            //Demo_Delegate demo_Delegate = new Demo_Delegate();
+            //demo_Delegate.test();
+
+            //Demo_MultiCast demo_MultiCast = new Demo_MultiCast();
+            //demo_MultiCast.test();
+
+            //Demo_Event_1 demo_Event_1 = new Demo_Event_1();
+            //demo_Event_1.test();
+
+            /*Demo_Event_2 demo_Event_2 = new Demo_Event_2();
+            demo_Event_2.test();*/
+
+            /*Demo_Event_3 demo_Event_3 = new Demo_Event_3();
+            demo_Event_3.test();*/
+
+            //Demo_Class demo_Class = new Demo_Class();
+            //demo_Class.test();
+
+            /* Demo_Polymorphisms demo_Polymorphisms = new Demo_Polymorphisms();
+             demo_Polymorphisms.test();*/
+
+            //Demo_Abstract demo_Abstract = new Demo_Abstract();
+            //demo_Abstract.test();
+
+            Demo_Interface demo_Interface = new Demo_Interface();
+            demo_Interface.test();
 
             Console.ReadLine();
         }
     }
+
 }

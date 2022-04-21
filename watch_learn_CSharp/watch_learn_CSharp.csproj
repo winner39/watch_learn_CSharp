@@ -63,6 +63,16 @@
     <Compile Include="10_12 操作符详解\Demo_Type_Transfer.cs" />
     <Compile Include="13_16 表达式、语句详解\Demo_Expression.cs" />
     <Compile Include="17_字段、属性、索引器、常量\Demo_17.cs" />
+    <Compile Include="18 传值、输出、引用、数组、具名、可选参数、扩展方法\Demo_Func_Parameters.cs" />
+    <Compile Include="19 委托详解\Demo_Delegate.cs" />
+    <Compile Include="19 委托详解\Demo_MultiCast.cs" />
+    <Compile Include="19_21 事件详解\Demo_Event_2.cs" />
+    <Compile Include="19_21 事件详解\Demo_Event_1.cs" />
+    <Compile Include="19_21 事件详解\Demo_Event_3.cs" />
+    <Compile Include="23_25 类\Demo_Class.cs" />
+    <Compile Include="26 多态\Demo_Polymorphisms.cs" />
+    <Compile Include="28 抽象类和封闭原则\Demo_Abstract.cs" />
+    <Compile Include="29 接口、依赖反转、单元测试\Demo_Interface.cs" />
     <Compile Include="4 类，对象，类成员简介\Demo_Timer.cs" />
     <Compile Include="6_7 详解类型、变量与对象\Demo_Type.cs" />
     <Compile Include="8_9 方法的定义、调用与调试\Demo_Func.cs" />
@@ -85,7 +95,12 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\HelpLib\HelpLib.csproj">
+      <Project>{71288279-ab98-41de-abe0-f9391da0aa68}</Project>
+      <Name>HelpLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
